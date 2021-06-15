@@ -1,0 +1,30 @@
+
+
+header {
+    background: #E5E5E5;
+    text-align: center;
+}
+
+h1{
+    background: #C4C4C4;
+    color: #005677;
+    text-align: center;
+
+
+}
+h4{
+    background: #C4C4C4;
+    color: #005677;
+
+    
+}
+#datos-personales {
+    font-style: italic;
+}
+
+span{
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+}
