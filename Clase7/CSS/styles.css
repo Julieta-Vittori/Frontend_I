@@ -1,5 +1,8 @@
 
 
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
 header {
     background: #E5E5E5;
     text-align: center;
@@ -15,7 +18,7 @@ h1{
 h4{
     background: #C4C4C4;
     color: #005677;
-
+    background-position: center;
     
 }
 #datos-personales {
@@ -27,4 +30,8 @@ span{
 }
 footer{
     text-align: center;
+    background: #005677;
+    color: white;
+    font-size: 20px;
+
 }
