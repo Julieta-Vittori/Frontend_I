@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+header {
+background-image: url("../img/logo batman.png");
+height: 130;/*LO QUE OCUPA MI FOTO EN EL BANNER DE ARRIBA Y ABAJO*/
+text-align: center;
+}
+
+body{
+    font-family: 'PT Serif', serif;
+}
+
+#perfil {
+    height: 100%;
+}
+#titulo{
+    text-align: center;
+}
+
+h1{
+    background: #C4C4C4;
+    color: #005677;
+    text-align: center;
+
+
+}
+h4{
+    background: #C4C4C4;
+    color: #005677;
+    background-position: center;
+   
+}
+#datos-personales {
+    font-style: italic;
+}
+
+span{
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    background: #005677;
+    color: white;
+    font-size: 20px;
+
+}
+ul p{
+    margin: 0 0 0 79px;
+}
+.margen{
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.ident{
+    margin-left: 10px;
+}
+footer a{
+    padding: 15px;;
+}
