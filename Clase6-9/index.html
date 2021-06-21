@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -8,142 +8,158 @@
     <link rel="stylesheet" href="CSS/styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
 
-    <title>Clase 8</title>
+    <title>Pet Shop</title>
+
 </head>
 
 <body>
-    <header class="primera-linea">
-        <p style="text-align:left;" class="comederos">
-            Grandes ofertas en comederos
-            <span style="float:right;">
-                Español
-                <span style="float:right;">
-                    ARG$
-                </span>
+    <header>
+
+        <div class="inicio_pagina">
+            <span id="titulo_en_desplegables">
+                Grandes ofertas en comederos
             </span>
-        </p>
-    </header>
-    <header class="menu">
-
-        <p style="text-align:left;" id="menu">
-            &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
-            <img src="img\Cat.png" alt="Gato">
-            <span id="logo1">Front</span>
-            <span id="logo2">Cat&Dog </span>
-            <img src="img\Dog.png" alt="Perro">
-
-
-            <span style="float:right;">
-                <i class="fas fa-paw"></i>
-                Categorías
-                <i class="fas fa-paw"></i>
-                Pets
-                <i class="fas fa-paw"></i>
-                Nosotros
-                <i class="fas fa-paw"></i>
-                Contactanos
-
+            <span>
+                <select name="idomas" class="desplegables">
+                    <option value="1">Español</option>
+                    <option value="2">Ingles</option>
+                    <option value="3">Portugues</option>
+                </select>
             </span>
-        </p>
+            <span>
+                <select name="Moneda" class="desplegables">
+                    <option value="1">ARG $</option>
+                    <option value="2">Dol U$S</option>
+                    <option value="3">Euro €</option>
+                </select>
+            </span>
+        </div>
+        <div id="franja_petshop">
+            <span id="logo-franja">
+                <img src="img/Logofrontcyd.png" alt="Fron Dog&Cat">
+            </span>
+            <span id="menu">
+                <a href="https:google.com.ar" target="_blank"><i class="fas fa-paw"></i>Categorias</a>
+                &nbsp<a href="https:google.com.ar" target="_blank"><i class="fas fa-paw"></i> Pets</a>
+                &nbsp <a href="https:google.com.ar" target="_blank"><i class="fas fa-paw"></i> Sobre
+                    Nosotros</a>
+                &nbsp <a href="https:google.com.ar" target="_blank"><i class="fas fa-paw"></i> Contactenos</a>
+            </span>
+        </div>
+
+
 
     </header>
+
     <main>
-        <section class="banner">
-        </section>
+        <div id="banner">
+            <h3>
+                ¡Es un placer tenerte aquí!
+                <h3>
+                    <h5>
+                        ¡Comederos en descuento!
+                    </h5>
+                    <p id="boton-comedores">
+                        COMEDEROS
+                    </p>
 
-        <section class="paw-grande">
-        </section>
+        </div>
 
-        <section class="seccion-central">
-            <p>
+        <div id="pata-grande">
+            <img src="img/pawprint 1.png" alt="pata">
             <h1>Productos destacados</h1>
-            </p>
-            <p>
-                <a href="">Comederos</a>
-                <span>-</span>
-                <a href="">Accesorios</a>
-                <span>-</span>
-                <a href="">Comida</a>
 
-            </p>
-            <br><br>
-            <span  class="seccion-central">
-                <img src="img/Churrasquito.png" alt="Juguete churrasquito"  class="seccion-central">
-                <img src="img/Comedero.png" alt="Comedero de mascota"  class="seccion-central">
-                <img src="img/Huesito juguete.png" alt="Juguete huesito"  class="seccion-central">
 
+            <a href="">Comederos</a>
+            <span>-</span>
+            <a href="">Accesorios</a>
+            <span>-</span>
+            <a href="">Comida</a>
+
+        </div>
+
+        <div id="imagenes-centro">
+
+            <span>
+                <a
+                    href="https://articulo.mercadolibre.com.ar/MLA-741212334-juguete-carne-con-chifle-para-perros-mascotas-10cm-_JM#position=36&search_layout=stack&type=item&tracking_id=d047796a-5d14-4f84-87bd-9eaef0a7979f">
+                    <img src="img/churrasquito.png" alt="jueguete">
+                    <p>
+                        Juguete churrasquito
+                    </p>
+                    <p>
+                        $150</p>
+
+
+
+                </a>
             </span>
-            <br><br>
+            <span>
+                <a
+                    href="https://articulo.mercadolibre.com.ar/MLA-873659854-comedero-bebedero-acero-inox-antivuelco-med-para-perros-22cm-_JM?searchVariation=62035915005#searchVariation=62035915005&position=21&search_layout=stack&type=item&tracking_id=edacf515-5aa6-40cb-bec5-dc0408b5a9c6">
+                    <img src="img/comedero.png" alt="comedero">
+                    <p>Comederopara perro</p> 
+                    <p>$250</p> 
 
+                </a>
+            </span>
+            <span>
+                <a
+                    href="https://articulo.mercadolibre.com.ar/MLA-897765887-juguete-hueso-goma-tpr-perros-cachorros-mascotas-40-off-_JM?searchVariation=81507963765#searchVariation=81507963765&position=20&search_layout=stack&type=item&tracking_id=5b5fd2a7-0afb-4aca-bf02-70f8fd9963dc">
+                    <img src="img/Huesito.png" alt="jueguete">
+                    <p>Jueguete Huesito</p>
+                    <p>$650</p>
+                
+                </a>
+            </span>
+        </div>
+        <div class="formulario">
+            <h4>
+                Contáctenos
+            </h4>
+            <span>Nombre y apellido &nbsp</span> <br>
+            <span>Ingresa tu correo electrónico</span> <br>
+            <span>Teléfono</span>  <br> 
+            <span id="resetear">
+                Resetear
+            </span>     
+            <span id="enviar">Enviar</span> 
+        </div>
+        <br>
+        <br>
+        <br>
 
-            <p class="formulario">
-               <img src="img/Contáctanos.JPG" alt="Imagen de contactos">
-            </p>
-
-        </section>
+        <footer>
 
 
         <section class="menu">
-            <p style="text-align:left;"></p>
             <img src="img/enviar-correo 1.png" alt="sobre de correo">
             Suscíbete para más novedades
 
             <span>
                 <img src="img/Barra de búsqueda.PNG" alt="barra de búsqueda">
             </span>
-            </p>
+           </section>
 
-        </section>
-        <section class="footer">
+           <section id="iconos-footer">
+               <ul type="none">
+                   <li><i class="fas fa-map-marker-alt"></i>&nbsp &nbsp &nbsp Localidad</li>
+                   
+               <li><i class="fas fa-envelope-open-text"></i>&nbsp &nbsp &nbsp Mail</li>
 
+               <li><i class="fas fa-phone"></i>&nbsp &nbsp &nbspTelefono</li>
 
-            <span> <img src="img/Icono.png" alt="icono ubicación">
-              Localidad
-            </span><br>
-            <span class="detalle">
-            Calle-provincia
-            </span><br>
-            <span> <img src="img/Icono (1).png" alt="icono Teléfono">
-            Teléfono
-            </span><br>
-            <span class="detalle">
-            Número de teléfono
-            </span><br>
-            <span> <img src="img/Icono (2).png" alt="sobre con arroba">
-            Correo electrónico
-            </span><br>
-            <span class="detalle">
-            Dirección de correo
-            </span><br>
-            <span>
-                <img src="img/Logo.png" alt="Logo">
-            </span>
-        
-        </section>
+                </ul>   
+                <img src="img/Logo.png" alt="">
+            </section>
+
+            <div id="copyright">
+                Todos los derechos reservados Front End
+
+            </div>
+
     </main>
-
-    <footer class="iconos-footer">
-        <p>
-
-            Todos los derechos reservados Front End
-            <a href="https://www.facebook.com/" id="icono">
-                <i class="fab fa-facebook color"></i>
-            </a>
-            <a href="https://www.instagram.com/" id="icono">
-                <i class="fab fa-instagram  color"></i>
-            </a>
-
-        </p>
-        <!-- hola -->
-
-
-
-
-
-    </footer>
-
-
-
+</footer>
 
 
 
