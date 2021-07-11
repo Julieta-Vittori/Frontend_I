@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+body{
+    background-color: #E5E5E5;
+}
+.container{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+
+
+}
+nav{
+    display: flex;
+    align-content: center;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    align-items:center;
+    gap: 15px;
+    margin-right: 30px;
+
+}
+
+.logo{
+    margin: 15px;
+
+}
+
+.container-main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+
+}
+
+.delivery{
+    background-image: url(../img/delivery.jpg);
+    width: 800px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+  
+
+}
+.delivery.texto{
+    
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: red;
+    padding: 40px;
+
+}
+
+span{
+    color: white;
+}
+/*------------------------------------------*/
+.menu{
+    background-color: white;
+    width: 800px;
+    margin-left: 19px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    justify-content: center;
+
+}
+.pizza{
+position: absolute;
+right: 80px;
+    
+
+}
+
+.texto2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+  
+
+}
+
+
+h1{
+    color: #FC200C;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 40px;
+    margin-top: 20px;
+
+
+}
+
+.podio{
+    padding: 10px;
+    font-weight: bolder;
+    margin-left: 60px;
+    font-size: 19px;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+
+}
+footer ul{
+    color: white;
+    list-style: none;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 16px;
+    }
+
+.logo2{
+    margin-right: 50px;
+    height: 80px;
+    width: 212px;
+    align-self: center;
+
+}
